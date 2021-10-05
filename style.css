@@ -1,7 +1,24 @@
- #game div {
+#game div {
   border: 1px solid black;
   width: 15%;
   height: 200px;
   margin: 10px;
   display: inline-block;
-} 
+}
+#btn {
+  display: block;
+  margin: 40px auto;
+  width: 20%;
+  height: 40px;
+}
+.non-active {
+  display: none;
+}
+
+.displayResult {
+  display: block;
+  width: 40%;
+  height: 30px;
+  margin: 20px auto;
+  font-size: 2rem;
+}
