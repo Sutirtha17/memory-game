@@ -109,7 +109,7 @@ async function handleCardClick(event) {
         this.style.backgroundColor = `${className}`;
         numberOfMatches += 1;
         wait = true;
-        await sleep(1000);
+        await sleep(0);
       }
       previousColor = undefined;
       previous = undefined;
